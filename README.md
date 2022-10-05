@@ -4,7 +4,7 @@ A cash register manager which helps the user by telling how can he/she return th
 
 ## Demo -
 
-You can view this app live here - [Demo](https://)
+You can view this app live here - [Demo](https://cash-register-manager-utility.netlify.app/)
 
 ## Tech Stack -
 
