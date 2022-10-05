@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./main.css">
+    <title>Cash Register</title>
+</head>
+<body>
+    <div class="container">
+        <header class="heading">Cash Register Manager</header>
+        <p class="description">
+            Enter the bill amount and cash given by the customer and know minimum number of notes to return.
+        </p>
+        <label class="bill-amount" for="bill-amount">Bill Amount:</label>
+        <input class="bill-amount"  id="bill-amount" type="text" />
+        <label class="cash-given"  for="cash-given">Cash Given:</label>
+        <input class="cash-given" id="cash-given" type="text"/>
+        <button id="check-button">Check</button>
+        <p id="error-message"></p>
+        <table class="change-table">
+            <caption>
+                Return Change
+            </caption>
+            <tr>
+                <th>No of Notes</th>
+                <td class="no-of-notes"></td>
+                <td class="no-of-notes"></td>
+                <td class="no-of-notes"></td>
+                <td class="no-of-notes"></td>
+                <td class="no-of-notes"></td>
+                <td class="no-of-notes"></td>
+                <td class="no-of-notes"></td>
+            </tr>
+            <tr>
+                <th>Note</th>
+                <td>2000</td>
+                <td>500</td>
+                <td>100</td>
+                <td>20</td>
+                <td>10</td>
+                <td>5</td>
+                <td>1</td>
+            </tr>
+        </table>
+    </div>
+
+    <footer>
+        <div>
+            &#169; | abhisheksingha | 2022
+            <br>
+            <a href="https://github.com/abk9778singha" target="_blank" >
+                <img src="/img/icons8-github.svg" alt="github" style="width:48px;height:48px;">
+            </a>
+            <a href="https://twitter.com/abksingha" target="_blank" >
+                <img src="/img/icons8-twitter.svg" alt="twitter">
+            </a>
+            <a href="https://www.linkedin.com/in/abhishek-singha/" target="_blank" >
+                <img src="/img/icons8-linkedin-circled.svg" alt="linkedIn">
+            </a>
+        </div>
+    </footer>
+
+
+   <script src="./index.js"></script> 
+</body>
+</html>
